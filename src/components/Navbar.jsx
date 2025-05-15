@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 import { Menu } from "lucide-react";
 import { X } from "lucide-react";
+import { HashLink as Link } from "react-router-hash-link";
 
 const navItems = [
   { name: "Home", href: "/#hero" },
@@ -13,7 +14,7 @@ const navItems = [
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [isMenuOpen, setisMenuOpen] = useState(true);
+  const [isMenuOpen, setisMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -37,23 +38,23 @@ const Navbar = () => {
           className="text-xl font-bold text-primary flex items-center"
         >
           <span className="relative z-10">
-            <span className="text-glow text-foreground">Oluwalayomi </span>
+            <span className="text-glow text-foreground">Layomi's </span>
             Portfolio
           </span>
         </a>
 
         {/* desKtop */}
-        <div className="hidden md:flex space-x-8 ">
+        <ul className="hidden md:flex space-x-8 ">
           {navItems.map((item, key) => (
-            <div
+            <Link
               key={key}
-              href={item.href}
-              className="text-foreground/80 hover:text-pretty transition-colors duration-300"
+              to={item.href}
+              className="text-foreground/80 hover:text-primary transition-colors duration-300"
             >
-              {item.name}
-            </div>
+              <li>{item.name}</li>
+            </Link>
           ))}
-        </div>
+        </ul>
         {/* mobile */}
         <button
           onClick={() => setisMenuOpen((prev) => !prev)}
@@ -71,18 +72,18 @@ const Navbar = () => {
               : "opacity-0  pointer-events-none"
           )}
         >
-          <div className="flex flex-col te text-xl space-x-8">
+          <ul className="flex flex-col text-xl space-x-8">
             {navItems.map((item, key) => (
-              <div
-                key={key}
-                href={item.href}
-                className="text-foreground/80 hover:text-primary transition-colors duration-300"
+              <Link
+                to={item.href}
                 onClick={() => setisMenuOpen(false)}
+                key={key}
+                className="text-foreground/80 hover:text-primary transition-colors duration-300"
               >
-                {item.name}
-              </div>
+                <li>{item.name}</li>
+              </Link>
             ))}
-          </div>
+          </ul>
         </div>
       </div>
     </nav>

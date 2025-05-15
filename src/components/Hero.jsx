@@ -1,7 +1,7 @@
 import React from "react";
 import { ArrowDown } from "lucide-react";
 
-const HeroSection = () => {
+const Hero = () => {
   return (
     <section
       id="hero"
@@ -9,12 +9,12 @@ const HeroSection = () => {
     >
       <article className="container max-x-4xl mx-auto text-center z-10">
         <article className="space-y-6">
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
+          <h1 className="text-4xl mx-auto md:text-6xl font-bold tracking-tight">
             <span className="opacity-0 animate-fade-in">Hi, I'm </span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
               Oluwalayomi
             </span>
-            <span className="text-gradient opacity-0 animate-fade-in-delay-2 ml-2">
+            <span className="text-gradient block md:inline opacity-0 animate-fade-in-delay-2 ml-2">
               Lawore
             </span>
           </h1>
@@ -38,4 +38,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default Hero;

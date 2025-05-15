@@ -2,8 +2,12 @@ import React from "react";
 import ThemeToggle from "./ThemeToggle";
 import StarBackground from "../components/StarBackground";
 import Navbar from "../components/Navbar";
-import HeroSection from "../components/HeroSection";
-import AboutSection from "../components/AboutSection";
+import Hero from "../components/Hero";
+import About from "../components/About";
+import Skills from "../components/Skills";
+import Projects from "../components/Projects";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -14,9 +18,13 @@ const Home = () => {
       <StarBackground />
       <Navbar />
       <main>
-        <HeroSection />
-        <AboutSection />
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
       </main>
+      <Footer />
     </div>
   );
 };
