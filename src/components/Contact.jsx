@@ -85,20 +85,7 @@ const Contact = () => {
                 </Link>
               </div>
             </div>
-            <div className="flex space-x-4 items-start">
-              <div className="p-3 rounded-full bg-primary/10">
-                <Phone className="h-6 w-6 text-primary" />
-              </div>
-              <div>
-                <h4 className="font-medium">Phone</h4>
-                <Link
-                  to="tel:+234-7016477555"
-                  className="hover:text-primary transition-colors"
-                >
-                  +234-7016477555
-                </Link>
-              </div>
-            </div>
+
             <div className="flex space-x-4 items-start">
               <div className="p-3 rounded-full bg-primary/10">
                 <MapPin className="h-6 w-6 text-primary" />
