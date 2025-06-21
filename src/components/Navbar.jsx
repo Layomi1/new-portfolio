@@ -46,13 +46,12 @@ const Navbar = () => {
         {/* desKtop */}
         <ul className="hidden md:flex space-x-8 ">
           {navItems.map((item, key) => (
-            <Link
+            <li
               key={key}
-              to={item.href}
               className="text-foreground/80 hover:text-primary transition-colors duration-300"
             >
-              <li>{item.name}</li>
-            </Link>
+              <Link to={item.href}>{item.name}</Link>
+            </li>
           ))}
         </ul>
         {/* mobile */}
@@ -74,14 +73,14 @@ const Navbar = () => {
         >
           <ul className="flex flex-col text-xl space-x-8">
             {navItems.map((item, key) => (
-              <Link
-                to={item.href}
-                onClick={() => setisMenuOpen(false)}
+              <li
                 key={key}
                 className="text-foreground/80 hover:text-primary transition-colors duration-300"
               >
-                <li>{item.name}</li>
-              </Link>
+                <Link to={item.href} onClick={() => setisMenuOpen(false)}>
+                  {item.name}
+                </Link>
+              </li>
             ))}
           </ul>
         </div>

@@ -6,7 +6,7 @@ const Footer = () => {
       <p>
         All Rights reserved by <span className="font-semibold"> Layomi</span>
       </p>
-      <p cla>Copyright&copy;{new Date().getFullYear()}. </p>
+      <p>Copyright&copy;{new Date().getFullYear()}. </p>
     </footer>
   );
 };
