@@ -11,6 +11,7 @@ import animated_gallery from "../assets/projects/project_10.png";
 import product_listing from "../assets/projects/project_11.png";
 import credit_card from "../assets/projects/project_12.png";
 import meme_generator from "../assets/projects/project_13.png";
+import refine_dashboard from "../assets/projects/project_01.png";
 
 export const projects = [
   {
@@ -18,7 +19,7 @@ export const projects = [
     title: "Refine Dashboard",
     description:
       "Refine dashboard fetches Real time data and consists of Knaban borad, Charts , Upcoming events etc.",
-    image: dashboard,
+    image: refine_dashboard,
     gitHubUrl: "https://github.com/Layomi1/react-admin-dashboard-app.git",
     hostedUrl: "https://frontend-rookie-refine-dashboard.netlify.app/",
     tags: ["Refine React", "Ant Design Chart", "GraphQL"],
