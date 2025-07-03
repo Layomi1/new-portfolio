@@ -1,10 +1,7 @@
 import dashboard from "../assets/projects/project_1.png";
 import crud_table from "../assets/projects/project_2.png";
-import input_form from "../assets/projects/project_4.png";
 import shopping_cart from "../assets/projects/project_3.png";
 import food_blog from "../assets/projects/project_6.png";
-import multi_step_form from "../assets/projects/project_5.png";
-import scroll_indicator from "../assets/projects/project_7.png";
 import crud from "../assets/projects/project_8.png";
 import animated_card from "../assets/projects/project_9.png";
 import animated_gallery from "../assets/projects/project_10.png";
@@ -65,27 +62,9 @@ export const projects = [
     hostedUrl: "https://frontend-rookie-shopping-cart.netlify.app/",
     tags: ["React", "Tailwind CSS", "sync-fusion", "API"],
   },
+
   {
     id: 6,
-    title: "Dynamic Input form",
-    description:
-      "Dynamic input for allows addition and reoval of form inputs. Implemented in React.",
-    image: input_form,
-    gitHubUrl: "https://github.com/Layomi1/react-dynamic-input-fields.git",
-    hostedUrl: "https://frontend-rookie-dynamic-input-fields.netlify.app/",
-    tags: ["React", "Tailwind CSS"],
-  },
-  {
-    id: 7,
-    title: "Multistep form",
-    description: "React implemented multistep form",
-    image: multi_step_form,
-    gitHubUrl: "https://github.com/Layomi1/react-multistepform.git",
-    hostedUrl: "https://forntend-rookie-multistep-form.netlify.app/",
-    tags: ["React", "Tailwind CSS", "Sync-fusion"],
-  },
-  {
-    id: 8,
     title: "Food Blog",
     description:
       "AFood blog is implemneted using React , Redux and Tailwind CSS.",
@@ -96,17 +75,7 @@ export const projects = [
   },
 
   {
-    id: 9,
-    title: "Scroll Indicator",
-    description:
-      "Admin dashboard using React and sync-fusion.  It contains theme chaging, charts and serach features",
-    image: scroll_indicator,
-    gitHubUrl: "",
-    hostedUrl: "",
-    tags: ["React", "Tailwind CSS", "API"],
-  },
-  {
-    id: 10,
+    id: 7,
     title: "CRUD operation",
     description:
       "Admin dashboard using React and sync-fusion.  It contains theme chaging, charts and serach features",
@@ -116,7 +85,7 @@ export const projects = [
     tags: ["React", "Tailwind CSS"],
   },
   {
-    id: 11,
+    id: 8,
     title: "Animated Card",
     description: "Simple Animated card",
     image: animated_card,
@@ -125,7 +94,7 @@ export const projects = [
     tags: ["React", "Tailwind CSS", "Framer- Motion"],
   },
   {
-    id: 12,
+    id: 9,
     title: "Animated Image Gallery",
     description: "Simple Animated image gallery",
     image: animated_gallery,
@@ -134,7 +103,7 @@ export const projects = [
     tags: ["React", "Tailwind CSS", "Framer Motion"],
   },
   {
-    id: 13,
+    id: 10,
     title: "Product Listing",
     description:
       "The Product Listing app. Features included increasing and decreasing items in cart",
@@ -145,7 +114,7 @@ export const projects = [
   },
 
   {
-    id: 14,
+    id: 11,
     title: "Credit Card",
     description: "Credit card app",
     image: credit_card,
@@ -154,7 +123,7 @@ export const projects = [
     tags: ["JS", "CSS"],
   },
   {
-    id: 15,
+    id: 12,
     title: "Meme Generator",
     description: "Meme generator app was implemented using Angular",
     image: meme_generator,
