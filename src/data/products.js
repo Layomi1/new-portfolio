@@ -1,13 +1,10 @@
 import dashboard from "../assets/projects/project_1.png";
-import crud_table from "../assets/projects/project_2.png";
 import shopping_cart from "../assets/projects/project_3.png";
 import food_blog from "../assets/projects/project_6.png";
-import crud from "../assets/projects/project_8.png";
 import animated_card from "../assets/projects/project_9.png";
 import animated_gallery from "../assets/projects/project_10.png";
 import product_listing from "../assets/projects/project_11.png";
 import credit_card from "../assets/projects/project_12.png";
-import meme_generator from "../assets/projects/project_13.png";
 import refine_dashboard from "../assets/projects/project_01.png";
 import chef_claude from "../assets/projects/project_03.png";
 
@@ -42,18 +39,9 @@ export const projects = [
     hostedUrl: " https://frontend-rookie-chef-claude.netlify.app",
     tags: ["React", "Tailwind CSS", "Huggingface AI"],
   },
+
   {
     id: 4,
-    title: "Crud Table",
-    description:
-      "Simple CRUD table implemented in React, features  includes search, filter and pagination",
-    image: crud_table,
-    gitHubUrl: "https://github.com/Layomi1/react-table.git",
-    hostedUrl: " https://frontend-rookie-crud-table.netlify.app/",
-    tags: ["React", "Tailwind CSS"],
-  },
-  {
-    id: 5,
     title: "Shopping Cart",
     description:
       "Shopping Cart implemented using React, Redux and axios for fetcjing dummy endpoints",
@@ -64,7 +52,7 @@ export const projects = [
   },
 
   {
-    id: 6,
+    id: 5,
     title: "Food Blog",
     description:
       "AFood blog is implemneted using React , Redux and Tailwind CSS.",
@@ -75,17 +63,7 @@ export const projects = [
   },
 
   {
-    id: 7,
-    title: "CRUD operation",
-    description:
-      "Admin dashboard using React and sync-fusion.  It contains theme chaging, charts and serach features",
-    image: crud,
-    gitHubUrl: "https://github.com/Layomi1/react-crud.git",
-    hostedUrl: "https://frontend-rookie-crud-operations.netlify.app/",
-    tags: ["React", "Tailwind CSS"],
-  },
-  {
-    id: 8,
+    id: 6,
     title: "Animated Card",
     description: "Simple Animated card",
     image: animated_card,
@@ -94,7 +72,7 @@ export const projects = [
     tags: ["React", "Tailwind CSS", "Framer- Motion"],
   },
   {
-    id: 9,
+    id: 7,
     title: "Animated Image Gallery",
     description: "Simple Animated image gallery",
     image: animated_gallery,
@@ -103,7 +81,7 @@ export const projects = [
     tags: ["React", "Tailwind CSS", "Framer Motion"],
   },
   {
-    id: 10,
+    id: 8,
     title: "Product Listing",
     description:
       "The Product Listing app. Features included increasing and decreasing items in cart",
@@ -114,21 +92,12 @@ export const projects = [
   },
 
   {
-    id: 11,
+    id: 9,
     title: "Credit Card",
     description: "Credit card app",
     image: credit_card,
     gitHubUrl: "https://github.com/Layomi1/js-credit-card-payment.git",
     hostedUrl: "https://my-credit-card-app.netlify.app/",
     tags: ["JS", "CSS"],
-  },
-  {
-    id: 12,
-    title: "Meme Generator",
-    description: "Meme generator app was implemented using Angular",
-    image: meme_generator,
-    gitHubUrl: "https://github.com/Layomi1/angular-meme-generator.git",
-    hostedUrl: "https://monkz-meme-generator.netlify.app/",
-    tags: ["Angular", "Tailwind CSS", "sync-fusion"],
   },
 ];
