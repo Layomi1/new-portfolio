@@ -9,12 +9,12 @@ const skills = [
   },
   {
     name: "JavaScript",
-    level: "70",
+    level: "80",
     category: "frontend",
   },
   {
     name: "React",
-    level: "70",
+    level: "80",
     category: "frontend",
   },
   {
@@ -24,32 +24,37 @@ const skills = [
   },
   {
     name: "Redux",
-    level: "50",
-    category: "frontend",
-  },
-  {
-    name: "Context API",
-    level: "70",
-    category: "frontend",
-  },
-  {
-    name: "Tailwind CSS",
     level: "60",
     category: "frontend",
   },
   {
+    name: "React Query",
+    level: "60",
+    category: "frontend",
+  },
+  {
+    name: "Context API",
+    level: "80",
+    category: "frontend",
+  },
+  {
+    name: "Tailwind CSS",
+    level: "80",
+    category: "frontend",
+  },
+  {
     name: "TypeScript",
-    level: "40",
+    level: "60",
     category: "frontend",
   },
   {
     name: "GraphQL",
-    level: "30",
+    level: "50",
     category: "tools",
   },
   {
     name: "Firebase",
-    level: "30",
+    level: "50",
     category: "tools",
   },
 
