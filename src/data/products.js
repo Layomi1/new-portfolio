@@ -7,6 +7,7 @@ import product_listing from "../assets/projects/project_11.png";
 import credit_card from "../assets/projects/project_12.png";
 import refine_dashboard from "../assets/projects/project_01.png";
 import chef_claude from "../assets/projects/project_03.png";
+import video_call from "../assets/projects/project_14.png";
 
 export const projects = [
   {
@@ -50,9 +51,18 @@ export const projects = [
     hostedUrl: "https://frontend-rookie-shopping-cart.netlify.app/",
     tags: ["React", "Tailwind CSS", "sync-fusion", "API"],
   },
-
   {
     id: 5,
+    title: "Video Call",
+    description: "Video call app...",
+    image: video_call,
+    gitHubUrl: "https://github.com/Layomi1/react-shopping-cart.git",
+    hostedUrl: "https://frontend-rookie-shopping-cart.netlify.app/",
+    tags: ["React", "Chakra UI", "Zego Cloud", "API"],
+  },
+
+  {
+    id: 6,
     title: "Food Blog",
     description:
       "AFood blog is implemneted using React , Redux and Tailwind CSS.",
@@ -63,7 +73,7 @@ export const projects = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: "Animated Card",
     description: "Simple Animated card",
     image: animated_card,
@@ -72,7 +82,7 @@ export const projects = [
     tags: ["React", "Tailwind CSS", "Framer- Motion"],
   },
   {
-    id: 7,
+    id: 8,
     title: "Animated Image Gallery",
     description: "Simple Animated image gallery",
     image: animated_gallery,
@@ -81,7 +91,7 @@ export const projects = [
     tags: ["React", "Tailwind CSS", "Framer Motion"],
   },
   {
-    id: 8,
+    id: 9,
     title: "Product Listing",
     description:
       "The Product Listing app. Features included increasing and decreasing items in cart",
@@ -92,7 +102,7 @@ export const projects = [
   },
 
   {
-    id: 9,
+    id: 10,
     title: "Credit Card",
     description: "Credit card app",
     image: credit_card,
