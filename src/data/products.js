@@ -5,7 +5,7 @@ import animated_gallery from "../assets/projects/project_10.png";
 import product_listing from "../assets/projects/project_11.png";
 import credit_card from "../assets/projects/project_12.png";
 import refine_dashboard from "../assets/projects/project_01.png";
-import video_call from "../assets/projects/project_14.png";
+import video_call from "../assets/projects/project_11.png";
 
 export const projects = [
   {
