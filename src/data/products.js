@@ -45,7 +45,7 @@ export const projects = [
     description: "Video call app...",
     image: video_call,
     gitHubUrl: "https://github.com/Layomi1/react-video-call-app",
-    hostedUrl: "https://rookie-video-call-app.netlify.app//",
+    hostedUrl: "https://rookie-video-call-app.netlify.app",
     tags: ["React", "Chakra UI", "Zego Cloud", "API"],
   },
 
