@@ -10,8 +10,8 @@ const Projects = () => {
           Featured <span className="text-primary">Projects</span>
         </h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here is a few of my projects.Each project is carefully created with
-          attention to details,prformance and user experience
+          Here are a few of my projects. Each project is carefully created with
+          attention to details, performance and user experience
         </p>
         <article className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-8">
           {projects.map((project) => (
