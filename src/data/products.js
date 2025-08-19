@@ -6,6 +6,7 @@ import product_listing from "../assets/projects/project_11.png";
 import credit_card from "../assets/projects/project_12.png";
 import refine_dashboard from "../assets/projects/project_01.png";
 import video_call from "../assets/projects/project_4.png";
+import gym_app from "../assets/projects/project_02.png";
 
 export const projects = [
   {
@@ -53,15 +54,24 @@ export const projects = [
     id: 5,
     title: "Food Blog",
     description:
-      "AFood blog is implemneted using React , Redux and Tailwind CSS.",
+      "A Food blog is implemneted using React , Redux and Tailwind CSS.",
     image: food_blog,
     gitHubUrl: "https://github.com/Layomi1/react-food-blog.git",
     hostedUrl: "",
     tags: ["React", "Redux", "Tailwind CSS", "API"],
   },
-
   {
     id: 6,
+    title: "Gym App",
+    description: "A Gym app implemented using React and Tailwind CSS.",
+    image: gym_app,
+    gitHubUrl: "https://github.com/Layomi1/gym-app",
+    hostedUrl: "https://gym-app-one-lac.vercel.app",
+    tags: ["React", "Tailwind CSS", "API"],
+  },
+
+  {
+    id: 7,
     title: "Animated Image Gallery",
     description: "Simple Animated image gallery",
     image: animated_gallery,
@@ -70,7 +80,7 @@ export const projects = [
     tags: ["React", "Tailwind CSS", "Framer Motion"],
   },
   {
-    id: 7,
+    id: 8,
     title: "Product Listing",
     description:
       "The Product Listing app. Features included increasing and decreasing items in cart",
@@ -81,7 +91,7 @@ export const projects = [
   },
 
   {
-    id: 8,
+    id: 9,
     title: "Credit Card",
     description: "Credit card app",
     image: credit_card,
