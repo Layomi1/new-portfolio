@@ -4,7 +4,8 @@ const Footer = () => {
   return (
     <footer className="pb-10">
       <p>
-        All Rights reserved by <span className="font-semibold"> Layomi</span>
+        All Rights reserved by{" "}
+        <span className="font-semibold"> Oluwalayomi Lawore</span>
       </p>
       <p>Copyright&copy;{new Date().getFullYear()}. </p>
     </footer>

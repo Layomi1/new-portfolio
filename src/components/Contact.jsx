@@ -78,10 +78,10 @@ const Contact = () => {
               <div>
                 <h4 className="font-medium">Email</h4>
                 <Link
-                  to="mailto:layomi@gmail.com"
+                  to="mailto:layomilawore@gmail.com"
                   className="hover:text-primary transition-colors"
                 >
-                  layomi@gmail.com
+                  layomilawore@gmail.com
                 </Link>
               </div>
             </div>
