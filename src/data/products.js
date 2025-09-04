@@ -13,7 +13,7 @@ export const projects = [
     id: 1,
     title: "Refine Dashboard",
     description:
-      "Refine dashboard fetches Real time data and consists of Knaban borad, Charts , Upcoming events etc.",
+      "Refine dashboard fetches Real time data and consists of Kanban borad, Charts , Upcoming events etc.",
     image: refine_dashboard,
     gitHubUrl: "https://github.com/Layomi1/react-admin-dashboard-app.git",
     hostedUrl: "https://frontend-rookie-refine-dashboard.netlify.app/",
@@ -22,19 +22,18 @@ export const projects = [
   {
     id: 2,
     title: "Admin Dashboard",
-    description:
-      "Admin dashboard contains theme chaging, charts and serach features",
+    description: "Admin dashboard contains charts, tables and search features",
     image: dashboard,
-    gitHubUrl: "https://github.com/Layomi1/react-admin-dashboard-app.git",
-    hostedUrl: "https://rookie-admin-dashboard.netlify.app/",
-    tags: ["React", "Tailwind CSS", "syncfusion", "API"],
+    gitHubUrl: "https://github.com/Layomi1/admin-dashboard.git",
+    hostedUrl: "https://frontend-rookie-admin-dashboard.netlify.app/",
+    tags: ["React", "SCSS", "Recharts", "React Query", "API"],
   },
 
   {
     id: 3,
     title: "Shopping Cart",
     description:
-      "Shopping Cart implemented using React, Redux and axios for fetcjing dummy endpoints",
+      "Shopping Cart implemented using React, Redux and axios for fetching dummy endpoints",
     image: shopping_cart,
     gitHubUrl: "https://github.com/Layomi1/react-shopping-cart.git",
     hostedUrl: "https://frontend-rookie-shopping-cart.netlify.app/",
@@ -57,7 +56,8 @@ export const projects = [
       "A Food blog is implemneted using React , Redux and Tailwind CSS.",
     image: food_blog,
     gitHubUrl: "https://github.com/Layomi1/react-food-blog.git",
-    hostedUrl: "",
+    hostedUrl: "https://frontend-rookie-redux-food-blog.netlify.app/",
+
     tags: ["React", "Redux", "Tailwind CSS", "API"],
   },
   {
@@ -76,17 +76,17 @@ export const projects = [
     description: "Simple Animated image gallery",
     image: animated_gallery,
     gitHubUrl: "https://github.com/Layomi1/react-animated-image-gallery.git",
-    hostedUrl: "https://github.com/Layomi1/react-animated-image-gallery.git",
+    hostedUrl: "https://react-animated-image-gallery.vercel.app/",
     tags: ["React", "Tailwind CSS", "Framer Motion"],
   },
   {
     id: 8,
     title: "Product Listing",
     description:
-      "The Product Listing app. Features included increasing and decreasing items in cart",
+      "The Product Listing app. Features includes adding items, increasing and decreasing items in cart",
     image: product_listing,
     gitHubUrl: "https://github.com/Layomi1/js-product-list-with-cart.git",
-    hostedUrl: "frontend-rookie-product-listing.netlify.app/",
+    hostedUrl: "https://frontend-rookie-product-listing.netlify.app/",
     tags: ["JS", "Tailwind CSS", "API"],
   },
 
@@ -96,7 +96,7 @@ export const projects = [
     description: "Credit card app",
     image: credit_card,
     gitHubUrl: "https://github.com/Layomi1/js-credit-card-payment.git",
-    hostedUrl: "https://my-credit-card-app.netlify.app/",
+    hostedUrl: "https://js-credit-card-payment.vercel.app/",
     tags: ["JS", "CSS"],
   },
 ];
