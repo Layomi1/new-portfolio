@@ -1,6 +1,7 @@
 import dashboard from "../assets/projects/project_1.png";
 import shopping_cart from "../assets/projects/project_3.png";
 import food_blog from "../assets/projects/project_6.png";
+import netflix_clone from "../assets/projects/project_7.png";
 import animated_gallery from "../assets/projects/project_10.png";
 import product_listing from "../assets/projects/project_11.png";
 import credit_card from "../assets/projects/project_12.png";
@@ -69,9 +70,19 @@ export const projects = [
     hostedUrl: "https://gym-app-one-lac.vercel.app",
     tags: ["React", "Tailwind CSS", "API"],
   },
-
   {
     id: 7,
+    title: "Netflix Clone",
+    description:
+      "Netflix Clone implemented using React, TypeScript, SASS, Firebase and API",
+    image: netflix_clone,
+    gitHubUrl: "https://github.com/Layomi1/netflix-clone",
+    hostedUrl: "https://netflix-clone-nine-teal.vercel.app",
+    tags: ["React", "SASS", "TypeScript", "Firebase", "API"],
+  },
+
+  {
+    id: 8,
     title: "Animated Image Gallery",
     description: "Simple Animated image gallery",
     image: animated_gallery,
@@ -80,7 +91,7 @@ export const projects = [
     tags: ["React", "Tailwind CSS", "Framer Motion"],
   },
   {
-    id: 8,
+    id: 9,
     title: "Product Listing",
     description:
       "The Product Listing app. Features includes adding items, increasing and decreasing items in cart",
@@ -91,7 +102,7 @@ export const projects = [
   },
 
   {
-    id: 9,
+    id: 10,
     title: "Credit Card",
     description: "Credit card app",
     image: credit_card,
