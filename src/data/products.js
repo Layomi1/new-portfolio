@@ -1,5 +1,6 @@
 import dashboard from "../assets/projects/project_1.png";
 import shopping_cart from "../assets/projects/project_3.png";
+import broodl from "../assets/projects/project_03.png";
 import food_blog from "../assets/projects/project_6.png";
 import netflix_clone from "../assets/projects/project_7.png";
 import animated_gallery from "../assets/projects/project_10.png";
@@ -30,9 +31,24 @@ export const projects = [
     hostedUrl: "https://frontend-rookie-admin-dashboard.netlify.app/",
     tags: ["React", "SCSS", "Recharts", "React Query", "API"],
   },
-
   {
     id: 3,
+    title: "Broodl",
+    description: "A Mood App that stores your moods all year round.",
+    image: broodl,
+    gitHubUrl: "https://github.com/Layomi1/broodl",
+    hostedUrl: "https://broodl-seven.vercel.app/",
+    tags: [
+      "Nextjs15",
+      "Tailwind CSS",
+      "Firebase",
+      "React Query",
+      "Input-sanitization",
+    ],
+  },
+
+  {
+    id: 4,
     title: "Shopping Cart",
     description:
       "Shopping Cart implemented using React, Redux and axios for fetching dummy endpoints",
@@ -42,7 +58,7 @@ export const projects = [
     tags: ["React", "Tailwind CSS", "sync-fusion", "API"],
   },
   {
-    id: 4,
+    id: 5,
     title: "Video Call",
     description: "Video call app...",
     image: video_call,
@@ -52,7 +68,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Food Blog",
     description:
       "A Food blog is implemneted using React , Redux and Tailwind CSS.",
@@ -63,7 +79,7 @@ export const projects = [
     tags: ["React", "Redux", "Tailwind CSS", "API"],
   },
   {
-    id: 6,
+    id: 7,
     title: "Gym App",
     description: "A Gym app implemented using React and Tailwind CSS.",
     image: gym_app,
@@ -72,7 +88,7 @@ export const projects = [
     tags: ["React", "Tailwind CSS", "API"],
   },
   {
-    id: 7,
+    id: 8,
     title: "Netflix Clone",
     description:
       "Netflix Clone implemented using React, TypeScript, SASS, Firebase and API",
@@ -82,7 +98,7 @@ export const projects = [
     tags: ["React", "SASS", "TypeScript", "Firebase", "API"],
   },
   {
-    id: 8,
+    id: 9,
     title: "E-commerce store",
     description:
       "An e-commerce store using Stripe for payment and Zustand for state management",
@@ -92,7 +108,7 @@ export const projects = [
     tags: ["Next", "Stripe", "Tailwind CSS", "Zustand", "Shadcn UI"],
   },
   {
-    id: 9,
+    id: 10,
     title: "Animated Image Gallery",
     description: "Simple Animated image gallery",
     image: animated_gallery,
@@ -102,7 +118,7 @@ export const projects = [
   },
 
   {
-    id: 10,
+    id: 11,
     title: "Product Listing",
     description:
       "The Product Listing app. Features includes adding items, increasing and decreasing items in cart",
@@ -113,7 +129,7 @@ export const projects = [
   },
 
   {
-    id: 11,
+    id: 12,
     title: "Credit Card",
     description: "Credit card app",
     image: credit_card,
