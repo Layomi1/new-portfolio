@@ -10,10 +10,21 @@ import refine_dashboard from "../assets/projects/project_01.png";
 import video_call from "../assets/projects/project_4.png";
 import gym_app from "../assets/projects/project_02.png";
 import ecomms from "../assets/projects/project_9.png";
+import tabler from "../assets/projects/tabler.png";
 
 export const projects = [
   {
     id: 1,
+    title: "Tabler Dashboard",
+    description:
+      "This responsive dashboard is implemented using React,Tailwind CSS, Shadcn UI, Redux, React-saga and Firebase and json-server",
+    image: tabler,
+    gitHubUrl: "https://github.com/Layomi1/tabler",
+    hostedUrl: "https://tabler-virid.vercel.app/dashboard",
+    tags: ["React", "Shadcn UI", "Firebase", "Redux", "Redux-saga"],
+  },
+  {
+    id: 2,
     title: "Refine Dashboard",
     description:
       "Refine dashboard fetches Real time data and consists of Kanban borad, Charts , Upcoming events etc.",
@@ -23,7 +34,7 @@ export const projects = [
     tags: ["Refine React", "Ant Design Chart", "GraphQL"],
   },
   {
-    id: 2,
+    id: 3,
     title: "Admin Dashboard",
     description: "Admin dashboard contains charts, tables and search features",
     image: dashboard,
@@ -32,7 +43,7 @@ export const projects = [
     tags: ["React", "SCSS", "Recharts", "React Query", "API"],
   },
   {
-    id: 3,
+    id: 4,
     title: "Broodl",
     description: "A Mood App that stores your moods all year round.",
     image: broodl,
@@ -48,7 +59,7 @@ export const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "Shopping Cart",
     description:
       "Shopping Cart implemented using React, Redux and axios for fetching dummy endpoints",
@@ -58,7 +69,7 @@ export const projects = [
     tags: ["React", "Tailwind CSS", "sync-fusion", "API"],
   },
   {
-    id: 5,
+    id: 6,
     title: "Video Call",
     description: "Video call app...",
     image: video_call,
@@ -68,7 +79,7 @@ export const projects = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: "Food Blog",
     description:
       "A Food blog is implemneted using React , Redux and Tailwind CSS.",
@@ -79,7 +90,7 @@ export const projects = [
     tags: ["React", "Redux", "Tailwind CSS", "API"],
   },
   {
-    id: 7,
+    id: 8,
     title: "Gym App",
     description: "A Gym app implemented using React and Tailwind CSS.",
     image: gym_app,
@@ -88,7 +99,7 @@ export const projects = [
     tags: ["React", "Tailwind CSS", "API"],
   },
   {
-    id: 8,
+    id: 9,
     title: "Netflix Clone",
     description:
       "Netflix Clone implemented using React, TypeScript, SASS, Firebase and API",
@@ -98,7 +109,7 @@ export const projects = [
     tags: ["React", "SASS", "TypeScript", "Firebase", "API"],
   },
   {
-    id: 9,
+    id: 10,
     title: "E-commerce store",
     description:
       "An e-commerce store using Stripe for payment and Zustand for state management",
@@ -108,7 +119,7 @@ export const projects = [
     tags: ["Next", "Stripe", "Tailwind CSS", "Zustand", "Shadcn UI"],
   },
   {
-    id: 10,
+    id: 11,
     title: "Animated Image Gallery",
     description: "Simple Animated image gallery",
     image: animated_gallery,
@@ -118,7 +129,7 @@ export const projects = [
   },
 
   {
-    id: 11,
+    id: 12,
     title: "Product Listing",
     description:
       "The Product Listing app. Features includes adding items, increasing and decreasing items in cart",
@@ -129,7 +140,7 @@ export const projects = [
   },
 
   {
-    id: 12,
+    id: 13,
     title: "Credit Card",
     description: "Credit card app",
     image: credit_card,
