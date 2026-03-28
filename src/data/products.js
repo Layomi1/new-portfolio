@@ -20,7 +20,7 @@ export const projects = [
       "This responsive dashboard is implemented using React,Tailwind CSS, Shadcn UI, Redux, React-saga and Firebase and json-server",
     image: tabler,
     gitHubUrl: "https://github.com/Layomi1/tabler",
-    hostedUrl: "https://tabler-virid.vercel.app/dashboard",
+    hostedUrl: "https://tabler-virid.vercel.app/",
     tags: ["React", "Shadcn UI", "Firebase", "Redux", "Redux-saga"],
   },
   {
