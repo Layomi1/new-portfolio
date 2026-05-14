@@ -11,7 +11,7 @@ const About = () => {
         <article className="space-y-6 mx-auto md:max-w-2/3">
           <h3 className="text-2xl font-semibold">Passionate Developer</h3>
           <p className="text-muted-foreground">
-            With over 2 Years of experience in web development. I specialize in
+            With over 3 Years of experience in web development. I specialize in
             creating accessible and performant web application using modern
             technologies
           </p>
